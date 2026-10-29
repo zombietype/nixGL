@@ -13,7 +13,7 @@ nvidiaVersionFile ? null,
 # This is one by default, you can switch it to off if you want to reduce a
 # bit the size of nixGL closure.
 enable32bits ? stdenv.hostPlatform.isx86
-, stdenv, writeTextFile, shellcheck, pcre, runCommand, linuxPackages
+, stdenv, writeTextFile, shellcheck, pcre2, runCommand, linuxPackages
 , fetchurl, lib, runtimeShell, bumblebee, libglvnd, vulkan-validation-layers
 , mesa, libvdpau-va-gl, intel-media-driver, pkgsi686Linux, driversi686Linux
 , zlib, libdrm, xorg, wayland, gcc, zstd }:
